@@ -1,7 +1,5 @@
-import Button from "@mui/material/Button";
-
 const MyButton = () => {
-  return <Button>sahil</Button>;
+  return <div className="bg-red-700">sahil</div>;
 };
 
 export { MyButton };
