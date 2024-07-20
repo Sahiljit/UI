@@ -1,2 +1,2 @@
 import "./tailwind.css";
-export * from "./material/button";
+export { MyButton } from "./material/button";
