@@ -1,7 +1,5 @@
-import { MyButton } from "../lib/index";
-
 function App() {
-  return <MyButton />;
+  return <div>Hello World!</div>;
 }
 
 export default App;

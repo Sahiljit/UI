@@ -1,2 +1,3 @@
 import "./tailwind.css";
-export { MyButton } from "./material/button";
+import "@radix-ui/themes/styles.css";
+export { Button } from "./radix/button";
