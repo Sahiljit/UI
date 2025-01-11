@@ -1,5 +1,10 @@
-function App() {
-  return <div>Hello World!</div>;
-}
+import { Button } from "sahiljit/ui/radix";
 
+function App() {
+  return (
+    <>
+      <Button />
+    </>
+  );
+}
 export default App;
