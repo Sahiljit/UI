@@ -7,7 +7,8 @@
     "module": "ESNext",
     "skipLibCheck": true,
     "paths": {
-      "sahiljit/ui/radix": ["./lib/radix/radix.ts"]
+      "sahiljit/ui/radix": ["./lib/radix/radix.ts"],
+      "sahiljit/ui/radix2": ["./lib/radix2/radix2.ts"]
     },
 
     /* Bundler mode */
