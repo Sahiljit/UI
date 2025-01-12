@@ -1,27 +1,24 @@
 {
   "name": "@sahiljit/ui",
-  "version": "5.3.0",
+  "version": "5.8.0",
   "type": "module",
   "files": [
     "dist"
   ],
-  "main": "./dist/radix.cjs",
-  "module": "./dist/radix.js",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
   "exports": {
     ".": {
-      "import": "./dist/radix.js",
-      "require": "./dist/radix.cjs"
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
     },
     "./radix": {
       "import": "./dist/radix.js",
       "require": "./dist/radix.cjs"
     },
-    "./radix2": {
-      "import": "./dist/radix2.js",
-      "require": "./dist/radix2.cjs"
-    },
-    "./dist/style.css": "./dist/style.css"
+    "./dist/style.css": "./dist/ui.css"
   },
+  "sideEffects": false,
   "scripts": {
     "dev": "vite",
     "prebuild": "rm -rf dist",

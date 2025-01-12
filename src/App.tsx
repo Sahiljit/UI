@@ -1,12 +1,10 @@
 import { Button } from "sahiljit/ui/radix";
-import { Button as Radix } from "sahiljit/ui/radix2";
+import "../lib/index";
 
 function App() {
   return (
     <>
       <Button />
-      <Radix />
-      {/* <div className="bg-black">sahil</div> */}
       <div className="bg-red-500 mt-10">hey</div>
     </>
   );

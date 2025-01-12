@@ -10,8 +10,8 @@ export default defineConfig({
     // library entry settings
     lib: {
       entry: [
+        resolve(__dirname, "lib/index.ts"),
         resolve(__dirname, "lib/radix/radix.ts"),
-        resolve(__dirname, "lib/radix2/radix2.ts"),
       ],
       name: "@sahiljit/ui",
 
