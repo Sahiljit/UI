@@ -8,7 +8,7 @@ https://www.youtube.com/watch?v=LMxrUHofe4Y
 
 Explanation in summary -
 
-In vite.config.ts, we define the entry points and what namaes to give to the build files after vite builds for us.
+In vite.config.ts, we define the entry points and what names to give to the build files after vite builds for us.
 Then in package.json, we map name of sub-modules with the build files from the build folder.
 
 How we consume the library (i.e the name of sub-modules) is defined in package.json's export.

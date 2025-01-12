@@ -1,12 +1,7 @@
 import { Button } from "sahiljit/ui/radix";
-import "../lib/index";
+import "../lib/index"; // this imports styles for radix + tailwind
 
 function App() {
-  return (
-    <>
-      <Button />
-      <div className="bg-red-500 mt-10">hey</div>
-    </>
-  );
+  return <Button>sahil</Button>;
 }
 export default App;

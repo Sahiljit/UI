@@ -1,11 +1,18 @@
-export interface ButtonProps {}
 import { Button as RadixButton } from "@radix-ui/themes";
+import { ReactNode } from "react";
 
-export const Button = ({}: ButtonProps) => {
-  return (
-    <>
-      <div className="bg-black">hey</div>
-      <RadixButton variant="soft">sahil3</RadixButton>
-    </>
-  );
+export interface ButtonProps {
+  children: React.ReactNode;
+  variant?:
+    | "classic"
+    | "solid"
+    | "soft"
+    | "surface"
+    | "outline"
+    | "ghost"
+    | undefined;
+}
+
+export const Button = ({ children, variant }: ButtonProps): ReactNode => {
+  return <RadixButton variant={variant}>{children}</RadixButton>;
 };
