@@ -14,7 +14,7 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "./src"),
+      "@": path.resolve(__dirname, "./"),
     },
   },
 
@@ -24,6 +24,7 @@ export default defineConfig({
       entry: [
         resolve(__dirname, "lib/index.ts"),
         resolve(__dirname, "lib/radix/radix.ts"),
+        resolve(__dirname, "lib/shadcn-ui/shadcn-ui.ts"),
       ],
       name: "@sahiljit/ui",
 
